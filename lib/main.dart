@@ -43,8 +43,8 @@ class _CompilerHomePageState extends State<CompilerHomePage> {
     const String apiUrl = 'https://api.jdoodle.com/v1/execute';
 
     final Map<String, dynamic> requestBody = {
-      'clientId': '10f7a63f2653b6671de8c333927fa2d4',
-      'clientSecret': 'df871fead766450b87b19259d3a7522203385c9816d641e285a46af1db3e6f98',
+      'clientId': 'Paste Your clientId',
+      'clientSecret': 'Paste Your clientSecret',
       'script': code,
       'language': 'java',
       'versionIndex': '4',
